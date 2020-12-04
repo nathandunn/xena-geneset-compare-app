@@ -1,0 +1,824 @@
+.buttonStyle {
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu{
+    border: 2px;
+    background-color: goldenrod;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.softflow {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 300px;
+  display: inline;
+}
+
+.soflow {
+    color: #fff;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+    background-color: #779126;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.mutation2Color{
+    color: #2777b4;
+    font-weight: bolder;
+  font-family: Arial, serif;
+}
+
+.mutation3Color{
+    color: #ff7f0e;
+    font-weight: bolder;
+    font-family: Arial, serif;
+}
+
+.mutation4Color{
+    color: #0000ff;
+    font-weight: bolder;
+    font-family: Arial, serif;
+}
+
+.mutationColor{
+    color: cornflowerblue;
+    font-weight: bolder;
+  font-family: Arial, serif;
+}
+
+
+.cnvcolor{
+    color: firebrick;
+    font-weight: bolder;
+}
+
+.cnvHighColor{
+    color: #ff0000;
+    font-weight: bolder;
+  font-family: Arial, serif;
+}
+
+.cnvLowColor{
+    color: #0000ff;
+    font-weight: bolder;
+  font-family: Arial, serif;
+}
+
+.overRepresentedColor{
+  background-color: red;
+  color: white;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.neutralColor{
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
+.underRepresentedColor{
+  background-color: blue;
+  color: white;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.pathwayChip {
+  color: gray;
+  background-color:  rgb(238, 238, 238);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-family: sans-serif;
+  font-size: small;
+  width: 180px;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.inlinePathwayChip {
+  color: gray;
+  background-color:  rgb(238, 238, 238);
+  border-radius: 20px;
+  /*padding: 10px;*/
+  padding: 3px 3px 4px 4px;
+  font-size: small;
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: inline;
+}
+
+.geneSetBox{
+  border-radius:15px;
+}
+
+.geneSetBoxLabel{
+  border-radius:15px;
+  display: inline;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.cohortEditorBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  width: 900px;
+  /*height: 80px;*/
+  /*overflow: auto;*/
+  border: 2px solid black;
+}
+
+
+.cohortEditorGrid{
+  /*margin: 5px;*/
+  /*padding: 5px;*/
+  /*font-family: sans-serif;*/
+  /*font-size:small;*/
+  /*box-shadow: 1px 1px 1px 1px gray;*/
+  /*border-radius:5px;*/
+  width: 95%;
+  /*overflow: auto;*/
+}
+
+.cohortEditorRow{
+  /*margin: 5px;*/
+  /*padding: 5px;*/
+  /*font-family: sans-serif;*/
+  /*font-size:small;*/
+  /*box-shadow: 1px 1px 1px 1px gray;*/
+  /*border-radius:5px;*/
+  width: 100%;
+  /*overflow: auto;*/
+  border: 2px solid black;
+}
+
+.subCohortList{
+  list-style-type:  none;
+  padding-left: 0;
+}
+
+.geneSetFilterBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  height: 80px;
+  overflow: auto;
+}
+
+.geneSetInfoBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  /*height: 80px;*/
+  overflow: auto;
+}
+
+.inlineButton {
+  display: inline;
+}
+
+.autoSortBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  /*height: 80px;*/
+  overflow: auto;
+}
+
+.shortRow{
+  height: 40px;
+}
+
+.titleBox{
+  font-family: "JetBrains Mono", "Helvetica", "Arial", sans-serif, monospace;
+  border-radius:5px;
+  /*border-color: saddlebrown;*/
+  border-width: 2px;
+  /*background-color: lightsalmon;*/
+  /*margin: 5px;*/
+  padding: 5px;
+  margin-top: 5px;
+  height: 35px;
+  width: 1100px;
+  font-size:  18px;
+}
+
+
+.headerBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  /*box-shadow: 1px 1px 1px 1px gray;*/
+  border-radius:1px;
+  /*height: 80px;*/
+  overflow: auto;
+  display: inline;
+}
+
+.containerBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  /*box-shadow: 1px 1px 1px 1px gray;*/
+  border-radius:1px;
+  /*height: 80px;*/
+  overflow: auto;
+  display: inline;
+}
+
+.openGeneSet{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  background-color: beige;
+  /*box-shadow: 1px 1px 1px 1px gray;*/
+  border-radius:5px;
+}
+
+.verticalLegendBox{
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  float: right;
+  background-color: lemonchiffon;
+}
+
+.legendTextDiv{
+  padding-left: 3px;
+  border: solid 1px brown;
+  background-color: lemonchiffon;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size:small;
+}
+
+.legendDiv{
+  border: solid 1px brown;
+  background-color: lemonchiffon;
+  border-radius: 5px;
+  height: 42px;
+  /*box-shadow: 1px 1px inset;*/
+}
+
+.cnvMutationLegendBox{
+  /*margin: 2px;*/
+  /*padding: 2px;*/
+  font-family: sans-serif;
+  font-size:small;
+  height: 25px;
+  /*box-shadow: 1px 1px 1px 1px gray;*/
+  border-radius:5px;
+}
+
+.menuButton{
+    border: 2px;
+    background-color: lightblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    color: green;
+    border-radius: 5px;
+}
+
+.mouseHover :hover{
+    cursor: pointer;
+}
+
+.geneHoverPathway{
+  word-break: break-all !important;
+  white-space: normal !important;
+  width: 180px !important;
+}
+
+
+.hoverScore{
+    color: white;
+    display: inline;
+    font-weight: bold;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.wideNavigation{
+    width: 80%;
+    display:inline;
+}
+
+.findNewGeneSets{
+  border-radius: 5px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /*margin-top: 40px;*/
+  margin-left: 5px;
+  /*margin-top: 15px;*/
+  padding: 6px;
+  background-color: lightgoldenrodyellow;
+  /*cursor: pointer;*/
+  outline: 0;
+  display: inline;
+  border: solid 2px gray;
+}
+
+.geneSetLabelOr{
+  display: inline;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.closeDialogButton{
+  font-weight: bold;
+  /*margin-left: 100%;*/
+  float: right;
+  width: 10px;
+
+}
+
+.analysisTitleSelector{
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
+  /*margin-top: 5px;*/
+  /*vertical-align: top;*/
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  border: solid 2px gray;
+  display: inline;
+}
+
+.descriptionLink{
+  border-radius: 5px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /*margin-top: 30px;*/
+  /*margin-left: 5px;*/
+  /*padding: 3px;*/
+  background-color: lightgoldenrodyellow;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 5px;
+  outline: 0;
+  display: inline;
+}
+
+.editGeneSets{
+  border-radius: 5px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /*margin-top: 30px;*/
+  /*margin-left: 5px;*/
+  /*padding: 3px;*/
+  background-color: lightgoldenrodyellow;
+  cursor: pointer;
+  outline: 0;
+  display: inline;
+}
+
+.editGeneSetLimits{
+  display: inline;
+  margin-top: 0;
+}
+
+.editGeneSetOrder{
+  width: 155px;
+  display: inline;
+}
+
+.geneSetLabel{
+  font-size: medium;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  margin: 5px;
+  display: inline;
+}
+
+.editGeneSetSearch{
+  font-size: small;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /*font-weight: bold;*/
+  margin: 2px;
+  display: inline;
+}
+
+.inlineSearch{
+    width: 200px;
+    display:inline;
+    color: white;
+    background-color: white;
+}
+.inlineSearchBox{
+    width: 150px;
+    display:inline;
+    color: white;
+    background-color: white;
+}
+
+.input .autocomplete {
+    color: white;
+    background-color: white;
+}
+
+.menuStyle{
+  /*font-color:white ;*/
+    background-color: white;
+}
+
+.labelDefault{
+    position: absolute;
+    cursor: none;
+}
+
+.labelDefaultTop :hover{
+    background-color: red;
+    stroke-width: 1;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 1px 1px gray inset;
+}
+
+.labelDefaultBottom :hover{
+    background-color: blue;
+    stroke-width: 1;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 1px 1px gray inset;
+}
+
+div[data-react-toolbox=dialog] > section{
+    width: 1000px;
+    overflow: auto;
+}
+.map_wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+    cursor: none;
+}
+
+.crosshairH {
+    width: 100%;
+    height:1px;
+    margin-top: -8px;
+    visibility: visible;
+    float: left;
+    position: absolute;
+    pointer-events: none;
+    /*background-image:url('./dots.gif');*/
+  /*background-color:rgba(100,100,100,0.5);*/
+    background-color:rgba(57,255,20,1);
+    cursor: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    z-index: 10;
+}
+
+.crosshairV{
+    float: left;
+    position: absolute;
+    pointer-events: none;
+    /*background-image:url('./dots.gif');*/
+    /*background-color:rgba(100,100,100,0.5);*/
+    background-color:rgba(57,255,20,1);
+    height:100%;
+    width:1px;
+    margin-left: -8px;
+    visibility: visible;
+    cursor: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    z-index: 100;
+}
+
+.scoreBox{
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: inline;
+}
+
+.scoreBoxBlock{
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: block;
+}
+
+.samplesBox{
+  padding-left: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius:5px;
+  background-color: lightgray;
+  /*border: solid 1px;*/
+}
+
+.boxHeader{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.ssInfoBox{
+  /*height: 220px;*/
+  width: 190px;
+  margin: 5px 0 5px 0;
+  padding: 5px 5px 5px 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  /*height: 80px;*/
+  overflow: auto;
+  text-wrap: normal;
+  background-color: white;
+}
+
+.bottomInfoBox{
+  height: 220px;
+  width: 190px;
+  margin: 5px 0 5px 0;
+  padding: 5px 5px 5px 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  /*height: 80px;*/
+  overflow: auto;
+  text-wrap: normal;
+  background-color: white;
+}
+
+.topInfoBox{
+  background-color: white;
+  height: 210px;
+  width: 190px;
+  margin: 60px 0 5px 0;
+  padding: 5px 5px 5px 5px;
+  font-family: sans-serif;
+  font-size:small;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius:5px;
+  /*height: 80px;*/
+  overflow: auto;
+  text-wrap: normal;
+}
+
+.infoLink{
+  height: 20px;
+  display: inline;
+  border-radius: 3px;
+  background-color: white;
+  padding: 2px;
+  margin: 0;
+  width: 100%;
+}
+
+.cohortAGeneSetViewer{
+  padding: 8px 2px 8px 2px;
+  border-radius: 3px;
+  color: white;
+}
+
+.cohortBGeneSetViewer{
+  padding: 8px 2px 8px 2px;
+  border-radius: 3px;
+}
+
+.geneSetHeaderLabel{
+  font-family: sans-serif;
+  font-size: small;
+  display: inline;
+}
+
+.noBullets{
+  list-style-type: none;
+  padding: 5px 0 0 0 ;
+  margin: 0;
+}
+
+.geneSetDetailBox{
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+
+}
+
+.topGeneDetailBox{
+border-radius: 5px;
+ padding-right: 20px;
+ padding-left: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+
+}
+
+.bottomGeneDetailBox{
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.selectedGeneset{
+  fill: none;
+  stroke: greenyellow;
+  stroke-width: 2px;
+}
+.selectedGenes{
+  fill: none;
+  stroke: magenta;
+  stroke-width: 2px;
+}
+
+.legendLabel{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.geneSetLegend{
+  position: absolute;
+  margin-top: 30px;
+}
+
+.openGeneSetLegend{
+  position: absolute;
+  margin-top: 110px;
+  height: 50px;
+}
+
+.openGeneSetRow{
+  position: absolute;
+  /*margin-top: 50px;*/
+  height: 40px;
+  /*padding-top: 0;*/
+  margin-top: 0;
+}
+
+.geneLegend{
+  position: absolute;
+  margin-top: 75px;
+  height: 50px;
+}
+.diffScaleLegend{
+  position: absolute;
+  margin-top: 122px;
+}
+
+.middleSampleLegend{
+  position: absolute;
+  /*margin-top: 0;*/
+  margin-top: 0px;
+  /*margin-left: 0;*/
+}
+
+.dialogWrapper {
+  display: block;
+  position: absolute;
+  height: calc(100% );
+  width: 1000px;
+  top: 64px;
+}
+.dialogBase {
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  width: 1000px;
+  top: 64px;
+}
+
+.cohortEditorDialogWrapperBase {
+  display: block;
+  position: absolute;
+  height: calc(100% - 179px);
+  left: 50px;
+  width: 800px;
+  top: 64px;
+}
+
+
+.cohortEditorDialogBase {
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  width: 800px;
+  left: 50px;
+  top: 64px;
+}
+
+.noteError{
+  color: orangered;
+  font-size: larger;
+  background-color: rgba(256,0,0,0.2);
+  border: 2px solid red;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 700px;
+  list-style-type: none;
+}
+
+.refreshButton{
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.geneSetSelector{
+  display: inline;
+  /*margin-top: 35px;*/
+  /*margin-left: 25px;*/
+}
+
+.xenaLinkOut{
+  border-radius: 10px;
+  border: 2px solid gray;
+  padding: 5px;
+  background-color: lemonchiffon;
+}
+.externalLink:after {
+  font-family: FontAwesome, serif;
+  content: "\f08e";
+  padding-left: 3px;
+  font-size: 85%;
+}
+
+.cohortTitle{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 5px;
+  background-color: lemonchiffon;
+}
+.subGroupButton{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 8px;
+  padding: 1px;
+  color: black;
+  font-weight: bolder;
+  /*width: 90%;*/
+  /*background-color: lemonchiffon;*/
+  background-color: lightgray;
+}
+
+.editCohorts{
+  margin-left: 8px;
+  font-size: larger;
+  cursor: pointer;
+  /*padding-left: 5px;*/
+}
+
