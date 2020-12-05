@@ -17,6 +17,7 @@ parserOptions:
   sourceType: module
 plugins:
   - react
+  - babel
 rules: {
   no-use-before-define: 0,
   "indent": ["warn", 2],
