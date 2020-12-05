@@ -12,7 +12,8 @@ import {
 } from '../functions/DataFunctions'
 import BaseStyle from '../css/base.css'
 import VerticalGeneSetScoresView from './VerticalGeneSetScoresView'
-import {Dialog} from 'react-toolbox'
+// import {Dialog} from '@material-ui'
+// import {Button} from '@material-ui'
 import {
   fetchBestPathways,
   fetchCombinedCohorts,
@@ -46,7 +47,6 @@ import {DiffColumn} from './diff/DiffColumn'
 import {LegendBox} from './legend/LegendBox'
 import GeneSetEditorComponent from './GeneSetEditorComponent'
 import FaQuestionCircle from 'react-icons/lib/fa/question-circle'
-import {Button} from 'react-toolbox/lib'
 import {intersection} from '../functions/MathFunctions'
 import {getViewsForCohort} from '../functions/CohortFunctions'
 import GeneSetEditorPopup from './GeneSetEditorPopup'
@@ -55,6 +55,8 @@ import {
   addCustomGeneSet, getAllCustomGeneSets, getCustomGeneSet, removeCustomGeneSet
 } from '../service/GeneSetAnalysisStorageService'
 import {VIEW_ENUM} from '../data/ViewEnum'
+import {Dialog} from 'material-ui'
+import {Button} from 'react-bootstrap'
 
 const VERTICAL_SELECTOR_WIDTH = 220
 export const VERTICAL_GENESET_DETAIL_WIDTH = 180

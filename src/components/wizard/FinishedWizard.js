@@ -3,7 +3,7 @@ import PureComponent from '../PureComponent'
 import Wizard from '../../css/wizard.css'
 import PropTypes from 'prop-types'
 import {Helmet} from 'react-helmet'
-import {Button} from 'react-toolbox/lib'
+// import {Button} from 'react-toolbox/lib'
 
 
 export class FinishedWizard extends PureComponent {

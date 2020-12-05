@@ -1,7 +1,7 @@
 import React from 'react'
 import PureComponent from '../PureComponent'
 import PropTypes from 'prop-types'
-import {Chip} from 'react-toolbox'
+// import {Chip} from 'react-toolbox'
 import BaseStyle from '../../css/base.css'
 import {ScoreBadge} from './ScoreBadge'
 

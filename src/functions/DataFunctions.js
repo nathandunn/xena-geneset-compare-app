@@ -2,7 +2,7 @@ import {
   sum, times, memoize, range
 } from 'ucsc-xena-client/dist/underscore_ext'
 import { izip } from 'itertools'
-import lru from 'tiny-lru/lib/tiny-lru.es5'
+import lru from 'tiny-lru/lib/tiny-lru'
 import update from 'immutability-helper'
 import mutationScores from '../data/mutationVector'
 import { sumInstances, sumTotals } from './MathFunctions'

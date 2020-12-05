@@ -2,7 +2,7 @@ import PureComponent from './PureComponent'
 import PropTypes from 'prop-types'
 import React from 'react'
 import BaseStyle from '../css/base.css'
-import {Button} from 'react-toolbox'
+// import {Button} from 'react-toolbox'
 import {
   fetchCohortData, getAllSubCohortPossibleSamples,
   getCohortDetails,
@@ -12,7 +12,7 @@ import {
 } from '../functions/CohortFunctions'
 import {intersection} from '../functions/MathFunctions'
 import update from 'immutability-helper'
-import Link from 'react-toolbox/lib/link'
+// import Link from 'react-toolbox/lib/link'
 import {AppStorageHandler} from '../service/AppStorageHandler'
 
 function calculateCanSave(samples,cohorts){

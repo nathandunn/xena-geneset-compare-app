@@ -1,11 +1,12 @@
 import React from 'react'
 import PureComponent from './PureComponent'
 import PropTypes from 'prop-types'
-import Dialog from 'react-toolbox/lib/dialog'
+// import Dialog from 'react-toolbox/lib/dialog'
 import {isEqual} from 'underscore'
-import {Button} from 'react-toolbox/lib/button'
-import Link from 'react-toolbox/lib/link'
-import { Col, Row, Grid } from 'react-bootstrap'
+// import {Button} from 'react-toolbox/lib/button'
+// import Link from 'react-toolbox/lib/link'
+import {Col, Container, Row} from 'react-bootstrap'
+import {Dialog} from 'material-ui'
 
 export const UNASSIGNED_SUBTYPE = { key: 'UNASSIGNED',label:'unassigned'}
 
@@ -104,7 +105,7 @@ export class SubCohortSelector extends PureComponent {
             </tr>
             <tr>
               <td>
-                <Grid style={{marginTop: 20,width:900}}>
+                <Container style={{marginTop: 20,width:900}}>
                   {
                     filterCounts.subCohortCounts.sort( (a,b) => a.name.localeCompare(b.name)).map( cs =>{
                       return (
@@ -134,7 +135,7 @@ export class SubCohortSelector extends PureComponent {
                       )
                     })
                   }
-                </Grid>
+                </Container>
               </td>
             </tr>
             <tr>

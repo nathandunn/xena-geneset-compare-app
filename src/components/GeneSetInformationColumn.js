@@ -7,7 +7,7 @@ import HoverGeneView from './hover/HoverGeneView'
 import SelectGeneView from './hover/SelectGeneView'
 import {generateXenaLink} from '../functions/XenaLinkFunctions'
 import {isViewGeneExpression} from '../functions/DataFunctions'
-import {Avatar} from 'react-toolbox/lib/avatar'
+// import {Avatar} from 'react-toolbox/lib/avatar'
 import XenaLogo from './xena.png'
 import FaExternalLink from 'react-icons/lib/fa/external-link'
 

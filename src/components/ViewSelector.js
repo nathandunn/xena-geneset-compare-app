@@ -1,7 +1,7 @@
 import React from 'react'
 import PureComponent from './PureComponent'
 import PropTypes from 'prop-types'
-import {Dropdown} from 'react-toolbox'
+import {Dropdown} from '@material-ui'
 
 export class ViewSelector extends PureComponent {
 

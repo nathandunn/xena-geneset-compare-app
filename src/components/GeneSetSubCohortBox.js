@@ -2,8 +2,8 @@ import React from 'react'
 import PureComponent from './PureComponent'
 import PropTypes from 'prop-types'
 import BaseStyle from '../css/base.css'
-import {Dialog} from 'react-toolbox/lib'
-import Link from 'react-toolbox/lib/link'
+// import {Dialog} from 'react-toolbox/lib'
+// import Link from 'react-toolbox/lib/link'
 import FaEdit from 'react-icons/lib/fa/edit'
 
 const MAX_SUB_COHORTS = 5

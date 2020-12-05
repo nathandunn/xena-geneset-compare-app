@@ -1,6 +1,6 @@
 import React from 'react'
 import PureComponent from '../PureComponent'
-import {Button} from 'react-toolbox/lib'
+// import {Button} from 'react-toolbox/lib'
 import PropTypes from 'prop-types'
 import Wizard from '../../css/wizard.css'
 

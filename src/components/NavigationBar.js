@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button, AppBar,  Navigation } from 'react-toolbox'
 import PureComponent from '../../src/components/PureComponent'
 import BaseStyle from '../css/base.css'
 import * as PropTypes from 'underscore'
+import {AppBar, Toolbar} from 'material-ui'
 
 
 // eslint-disable-next-line react/no-multi-comp
@@ -43,7 +43,8 @@ export default class NavigationBar extends PureComponent {
             rel="stylesheet"
           />
           <AppBar leftIcon={<XenaIcon />} title='Xena Gene Set Viewer'>
-            <Navigation className={BaseStyle.wideNavigation} type='horizontal'>
+            <Toolbar className={BaseStyle.wideNavigation} type='horizontal'>
+              {/*<Navigation className={BaseStyle.wideNavigation} type='horizontal'>*/}
               <table>
                 <tbody>
                   <tr>
@@ -62,7 +63,8 @@ export default class NavigationBar extends PureComponent {
                   </tr>
                 </tbody>
               </table>
-            </Navigation>
+            </Toolbar>
+            {/*</Navigation>*/}
           </AppBar>
 
         </div>)
