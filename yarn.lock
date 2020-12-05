@@ -12870,7 +12870,7 @@ ua-parser-js@^0.7.18:
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.22.tgz#960df60a5f911ea8f1c818f3747b99c6e177eae3"
   integrity sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==
 
-ucsc-xena-client@^2.27.3:
+ucsc-xena-client@^2.86.2:
   version "2.86.2"
   resolved "https://registry.yarnpkg.com/ucsc-xena-client/-/ucsc-xena-client-2.86.2.tgz#935b987e53020e1f6dfa3d89c34150539515d08a"
   integrity sha512-lPlZ7u7+ZnwHRz5hJ3TUB0CmPqZ6Lj+uvYl7MePbtFlE/HRMSldOtNevjpDRgbmcc2meOdoyN5HC4x1EFnnH9Q==
